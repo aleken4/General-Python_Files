@@ -15,13 +15,13 @@ Options:
 A C'e' 
 B b'd' 
 C e'e' 
-D f'f' 
+D f'f' @
 ____________________________________________________________________________________________________
 2. State the value that will be returned from the subroutine call:
 CODE_TO_CHAR(CHAR_TO_CODE('E')) + 2
 
 Value returned:
-
+E, which is 69.Then + 2 → 71.
 ____________________________________________________________________________________________________
 State one advantage of using Unicode instead of using ASCII.
 
