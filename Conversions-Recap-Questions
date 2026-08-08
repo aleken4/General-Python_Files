@@ -1,0 +1,63 @@
+The subroutine CODE_TO_CHAR can be used to convert a character code into the
+corresponding Unicode character. For example:
+CODE_TO_CHAR(97) will return the character 'a'
+CODE_TO_CHAR(65) will return the character 'A'
+
+The subroutine CHAR_TO_CODE can be used to convert a Unicode character into the
+corresponding character code. For example:
+CHAR_TO_CODE('a') will return the integer 97
+CHAR_TO_CODE('A') will return the integer 65
+
+1. Add a @ to show what value would be returned from the subroutine call:
+CODE_TO_CHAR(100)
+
+Options:
+A C'e' 
+B b'd' 
+C e'e' 
+D f'f' 
+____________________________________________________________________________________________________
+2. State the value that will be returned from the subroutine call:
+CODE_TO_CHAR(CHAR_TO_CODE('E')) + 2
+
+Value returned:
+
+____________________________________________________________________________________________________
+State one advantage of using Unicode instead of using ASCII.
+
+____________________________________________________________________________________________________
+The sound engineer currently uses a sample resolution of 4 bits which enables a sample to be stored 
+as one of 16 different bit patterns. She wants to increase the number of bit patterns available from
+ 16 to 32.Add a @ which shows the minimum sample resolution (in bits) she can choose that will allow 
+ her to do this.
+
+A 3 bits 
+B 5 bits 
+C 8 bits 
+D 16 bits 
+
+____________________________________________________________________________________________________
+Add a @ to show which of the following correctly states the effects of increasing the sampling rate.
+
+A Decreases both the quality of the recording and the file size 
+B Has no effect on the quality of the recording or the file size 
+C Improves the quality of the recording and has no effect on the file size 
+D Improves the quality of the recording and increases the file size 
+____________________________________________________________________________________________________
+Analogue sound must be converted to a digital form for storage and processing in a computer.
+
+0 4 . 1 Define the term sample resolution. [1 mark]
+
+____________________________________________________________________________________________________
+0 4 . 2 State one disadvantage of a high sample resolution. [1 mark]
+
+____________________________________________________________________________________________________
+0 4 . 3 A 50-second sound has been recorded at a sample rate of 40 000 Hz.
+Two bytes have been used to store each sample of the sound.
+
+____________________________________________________________________________________________________
+Calculate the file size of the sound file in megabytes.
+Show your working. [2 marks]
+
+Answer:   megabytes.
+____________________________________________________________________________________________________
